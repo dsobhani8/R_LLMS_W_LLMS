@@ -1,0 +1,27 @@
+Index,Failure Mode,Description
+1,Failure Mode Title,"Unsuccessful multi-step problem-solving**
+
+   This failure mode regards the machine learning model's insufficiency in effectively arriving at a correct solution for questions that require multi-step problem-solving or reasoning over several pieces of information. Such questions could necessitate combining factual details, mathematical computations, or understanding temporal sequences. The Machine learning model struggles to keep track of each subtask, resulting in a failure to answer accurately.
+  
+   For example, consider the question: ""Bill is signing up for a new streaming service. He got a special introductory deal where the first 6 months were $8 a month, then it went up to the normal price of $12 a month. After 8 months of the normal rate, the service increased its price to $14 a month. How much do 2 years of the service cost him?"" This question requires the model to perform multiple steps; calculating payments for different periods and then summing them. If the machine learning model fails to correctly answer this question, it is indicative of a failure in multi-step problem-solving."
+
+2,Failure Mode Title,"Inaccurate understanding of proportional relationships**
+
+   This category of failure mode encapsulates the machine learning model's difficulties in understanding and applying the concept of proportional relationships presented in the questions. This competency includes comprehending percentages, fractions, ratios, or more generally, concepts that involve scaling or comparisons between different magnitudes.
+
+   For example, the question ""A singer has 50 microphones that he wants to arrange in pairs on a stage. While making the arrangement, he realizes that 20% of the microphones won't find any space to fit in after arranging the rest in pairs. How many pairs of microphones was he able to arrange on the stage?"" hinges on understanding proportions (20% of 50 microphones) and relational concepts (arranging microphones in pairs). If the model is unable to accurately answer this question, it suggests a deficiency in understanding proportional relationships."
+
+3,Failure Mode Title,"Misinterpretation of temporal sequences**
+
+   This form of failure mode describes the machine learning model's inability to correctly interpret and reason over sequences of events, particularly when they have a chronological or temporal order. The model falters when asked to deduce specific details within a given timeframe or to recognize sequences where the actions or events are correlated with time.
+
+   For instance, the question ""Paul is at a train station and is waiting for his train. He isn't sure how long he needs to wait, but he knows that the fourth train scheduled to arrive at the station is the one he needs to get on. The first train is scheduled to arrive in 10 minutes [...], In total, how long, in minutes, will Paul wait for his train?"" requires the model to follow a sequence of events relative to time. The failure to correctly answer this question corresponds to a fault in interpreting temporal sequences."
+4,Failure Mode Title,"Erroneous evaluation of conditional probabilities**
+
+   This failure mode pertains to the machine learning model's inability to correctly grasp and apply concepts relating to conditional probabilities. In essence, it struggles to model scenarios where the likelihood of an event depends on the occurrence or non-occurrence of another event or series of events.
+
+   For instance, the question ""Marcus is trying to decide whether he really needs to do his homework. There's a 50% chance that tomorrow he'll have a substitute teacher who won't collect the homework [...]. What is the percentage chance that Marcus will actually have to turn in his homework tomorrow?"" requires understanding conditional probability. Failure to correctly answer this type of question would indicate a deficiency in evaluating conditional probabilities."
+
+6,Failure Mode Title,"Failure to Maintain Counting Consistency**
+    - Description: The model fails to correctly maintain the counting of resources, money, time, objects etc. during the processing of narrative. The model might mix up what has been added or subtracted or what has been multiplied or divided.
+    - Example: In the question ""Randy has 9 oatmeal cookies, 4 chocolate chip cookies, and 5 sugar cookies. He ate 3 cookies for an early day snack, one of each flavor. He ate 2 oatmeal cookies for lunch. He gives 2 sugar cookies to his friends. Then, he bakes 4 of each flavor for dinner. How many cookies does he have now?""; the model might incorrectly count the number of cookies left."
