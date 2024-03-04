@@ -22,6 +22,6 @@ Index,Failure Mode,Description
 
    For instance, the question ""Marcus is trying to decide whether he really needs to do his homework. There's a 50% chance that tomorrow he'll have a substitute teacher who won't collect the homework [...]. What is the percentage chance that Marcus will actually have to turn in his homework tomorrow?"" requires understanding conditional probability. Failure to correctly answer this type of question would indicate a deficiency in evaluating conditional probabilities."
 
-6,Failure Mode Title,"Failure to Maintain Counting Consistency**
+5,Failure Mode Title,"Failure to Maintain Counting Consistency**
     - Description: The model fails to correctly maintain the counting of resources, money, time, objects etc. during the processing of narrative. The model might mix up what has been added or subtracted or what has been multiplied or divided.
     - Example: In the question ""Randy has 9 oatmeal cookies, 4 chocolate chip cookies, and 5 sugar cookies. He ate 3 cookies for an early day snack, one of each flavor. He ate 2 oatmeal cookies for lunch. He gives 2 sugar cookies to his friends. Then, he bakes 4 of each flavor for dinner. How many cookies does he have now?""; the model might incorrectly count the number of cookies left."
